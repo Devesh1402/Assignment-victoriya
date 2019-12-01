@@ -1,0 +1,56 @@
+footer{
+    width: 450px;
+    .border-line{
+        padding: 15px 10px;
+        border-top: 1px solid $gray-darker;
+        border-bottom: 1px solid $gray-darker;
+    }
+    .nav{ 
+        .nav-menu
+        {
+            display: flex;
+            flex-direction: row;
+            margin:10px;
+                li a{
+                    text-decoration: none;
+                    padding: 15px 17px;
+                    font-size: $font-size-xsmall;
+                    font-weight: bold;
+                }
+        }
+ 
+    }
+    .media-menu{
+        display: flex;
+        flex-direction: row;
+        li{
+
+            margin: 10px 20px;
+            a{
+                text-decoration: none;
+
+            }
+        }
+    }
+
+    .footer-logo{
+        float:left;
+        width:103px;
+        margin-right:20px;
+    }
+    .footer-nav{
+        display: inline-block;
+        
+    }
+
+    .copyright-text{
+        margin-top:60px;
+        font-size:$font-size-xsmall;
+        color:$gray-darker;
+    }
+}
+
+/* This is background image for footer but on body */
+.bg{
+    background: url(../../assets/images/bg-food.png) bottom right no-repeat;
+}

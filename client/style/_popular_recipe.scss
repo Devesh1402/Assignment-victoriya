@@ -1,0 +1,83 @@
+
+/* owl courosole */
+#sync1 .item {
+    background: #0c83e7;
+    padding: 80px 0px;
+    margin: 5px;
+    color: #FFF;
+    border-radius: 3px;
+    text-align: center;
+  }
+  #sync2 .item {
+    margin: 5px;
+    color: #FFF;
+    border-radius: 3px;
+    cursor: pointer;
+    position:relative;
+  }
+  #sync2 .item .info {
+    display: none;
+    position: absolute;
+    bottom:0px;
+  }
+
+  #sync2 .item:hover .info {
+    display:block;
+  }
+
+  #sync2 .item img {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+
+
+  #sync2 .item:hover img {
+    -webkit-filter: brightness(50%);
+    filter: brightness(0.5);
+  }
+
+  #sync2 .current .item {
+    background: #0c83e7;
+  }
+ 
+  .owl-theme .owl-nav [class*='owl-'] {
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+  }
+  .owl-theme .owl-nav [class*='owl-'].disabled:hover {
+    background-color: #D6D6D6;
+  }
+  #sync1.owl-theme {
+    position: relative;
+  }
+  #sync1.owl-theme .owl-next,
+  #sync1.owl-theme .owl-prev {
+    width: 22px;
+    height: 40px;
+    margin-top: -20px;
+    position: absolute;
+    top: 50%;
+  }
+  #sync1.owl-theme .owl-prev {
+    left: 10px;
+  }
+  #sync1.owl-theme .owl-next {
+    right: 10px;
+  }
+/* owl courosole  eand */
+
+
+
+  .button-link{
+    background:$brand-info;
+    padding: 5px 10px;
+    display: block;
+    right: 0px;
+    position: absolute;
+    bottom:0px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-bottom-right-radius: 5px;
+    text-decoration: none;
+  }

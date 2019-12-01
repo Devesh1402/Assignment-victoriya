@@ -1,0 +1,73 @@
+.form-control input{
+    width: 395px;
+    height: 70px;
+    position: relative;
+    border-radius: 8px 0px 0px 8px;
+    border:0px;
+    background: $gray-light;
+    padding-left:15px;
+    
+}
+
+.form-control .input-group-prepend{
+    width: 170px;
+    height: 71px;
+    color:#ffffff;
+    background-color: $brand-info;
+    position: absolute;
+    border-radius: 0px 8px 8px 0px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.hover{
+    -webkit-filter: brightness(90%);
+    filter:brightness(0.9);
+    -webkit-box-shadow: 0px 0px 17px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 17px -3px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 17px -3px rgba(0,0,0,0.75);
+    cursor:pointer;
+}
+
+.form-control .input-group-prepend:hover{
+    @extend .hover
+}
+
+.btn {
+    transition: box-shadow .3s;
+    /* width: 100px; */
+    margin-top: 25px;
+    border: 0px;
+    padding: 12px 25px;
+    font-size: $font-size-base;
+    -webkit-box-shadow: 0px 0px 15px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px -5px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px -5px rgba(0,0,0,0.75);
+    cursor:pointer;
+}
+
+.btn:hover{
+    @extend .hover;
+}
+
+.btn-primary {
+    background: #f7826a;
+    color: white;
+}
+
+/*
+.btn-play {
+    border-radius: 50%;
+    border: 0px;
+    padding: 17px;
+    line-height: 9px;
+    border: 1px solid white;
+    background: none;
+    cursor: pointer;
+}
+*/
+
+.play-btn i:hover{
+    @extend .hover;
+    box-shadow: none;
+}

@@ -1,0 +1,12 @@
+@font-face {
+    font-family: museao;
+    src: url(../../assets/font/museo/museo-sans-300.eot) format('eot'),
+         url(../../assets/font/museo/museo-sans-300.svg) format('svg'),
+         url(../../assets/font/museo/museo-sans-300.ttf) format('ttf'),
+         url(../../assets/font/museo/museo-sans-300.woff) format('woff');
+   font-weight: 200;
+  }
+
+body {
+    font-family: 'museao', Courier, monospace;
+}
